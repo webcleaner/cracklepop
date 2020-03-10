@@ -11,7 +11,7 @@
          
         } else if (i%3===0) {         //If a #, when divided by 2, has a remainder of 0, number even. 
               //div 5 === 5, 15, 25, 35, 45, 55, 65, 75, 85, 95     
-           var crackle =   i + " Crackle";  //replace with alert
+           var crackle =   i + " Crackle"; 
            text += i + " Crackle" + "<br>";
            document.getElementById("demo").innerHTML = text;
          // console.log ( i + " Crackle");
